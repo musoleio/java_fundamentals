@@ -5,22 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0a8cafe-a161-4515-8bc8-b8cb0a736b4f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/basics/GrossPayCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/decision_structures/GradeMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/decision_structures/GradeMessageSwitchExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/decision_structures/QuotaCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/decision_structures/SalaryCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/decision_structures/TestResults.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/loops/AddNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/loops/Cashier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/loops/GrossPayInputValidation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/methods/GreetUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/methods/InstantCreditCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/objects/HomeAreaCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/objects/HomeAreaCalculatorRedo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/objects/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,12 +23,20 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
+        <option value="Record" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.jdks/jdk-17.0.5+8/lib/src.zip!/java.base/java/lang/Comparable.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$USER_HOME$/.jdks/jdk-17.0.5+8/lib/src.zip!/java.base/java/lang/Iterable.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.jdks/jdk-17.0.5+8/lib/src.zip!/java.base/java/util/Iterator.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.jdks/jdk-17.0.5+8/lib/src.zip!/java.base/java/util/List.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="2XyolTJG8B82y8fPtg8oPKBD0Xm" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -51,31 +49,29 @@
     <option name="showModules" value="false" />
     <option name="sortByType" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "inlay.hints"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="objects" />
       <recent name="decision_structures" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Cashier">
-    <configuration name="AddNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="loops.AddNumbers" />
-      <module name="java_fundamentals" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.HomeAreaCalculatorRedo">
     <configuration name="Cashier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="loops.Cashier" />
       <module name="java_fundamentals" />
@@ -84,24 +80,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GradeMessage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="decision_structures.GradeMessage" />
+    <configuration name="GreetUser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="methods.GreetUser" />
       <module name="java_fundamentals" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GradeMessageSwitchExpression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="decision_structures.GradeMessageSwitchExpression" />
+    <configuration name="HomeAreaCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="objects.HomeAreaCalculator" />
       <module name="java_fundamentals" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GrossPayInputValidation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="repetition_structures.GrossPayInputValidation" />
+    <configuration name="HomeAreaCalculatorRedo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="objects.HomeAreaCalculatorRedo" />
+      <module name="java_fundamentals" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InstantCreditCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="methods.InstantCreditCheck" />
       <module name="java_fundamentals" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -132,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HomeAreaCalculatorRedo" />
+        <item itemvalue="Application.HomeAreaCalculator" />
+        <item itemvalue="Application.InstantCreditCheck" />
+        <item itemvalue="Application.GreetUser" />
         <item itemvalue="Application.Cashier" />
-        <item itemvalue="Application.AddNumbers" />
-        <item itemvalue="Application.GrossPayInputValidation" />
-        <item itemvalue="Application.GradeMessageSwitchExpression" />
-        <item itemvalue="Application.GradeMessage" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +153,33 @@
       <option name="presentableId" value="Default" />
       <updated>1699610831792</updated>
     </task>
+    <task id="LOCAL-00001" summary="module_1: loops and conditionals">
+      <option name="closed" value="true" />
+      <created>1699685120812</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1699685120812</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="module_1: loops and conditionals" />
+    <option name="LAST_COMMIT_MESSAGE" value="module_1: loops and conditionals" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
