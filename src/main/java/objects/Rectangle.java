@@ -1,8 +1,8 @@
 package objects;
 
 public class Rectangle {
-    private double length, width;
-    private final int sides = 4;
+    protected double length, width;
+    protected final int sides = 4;
 
     public Rectangle() {
         setLength(0);
@@ -36,5 +36,13 @@ public class Rectangle {
 
     public void setWidth(double width) {
         this.width = width;
+    }
+
+    protected double getSides() {
+        return sides;
+    }
+
+    public void print() {
+        System.out.println("I am a rectangle");
     }
 }

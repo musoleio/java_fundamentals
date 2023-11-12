@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0a8cafe-a161-4515-8bc8-b8cb0a736b4f" name="Changes" comment="module_2: Methods, Object &amp; Data Types">
-      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/LotteryQuickPick.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/strings/TextProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="b0a8cafe-a161-4515-8bc8-b8cb0a736b4f" name="Changes" comment="module_3: Arrays &amp; Text Processing">
+      <change afterPath="$PROJECT_DIR$/src/main/java/inheritance/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/inheritance/InheritanceTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/inheritance/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/inheritance/Square.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/objects/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/objects/Rectangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,17 +71,17 @@
       <command value="mvn clean" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.TextProcessor">
-    <configuration name="HomeAreaCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="objects.HomeAreaCalculator" />
+  <component name="RunManager" selected="Application.InheritanceTester">
+    <configuration name="HomeAreaCalculatorRedo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="objects.HomeAreaCalculatorRedo" />
       <module name="java_fundamentals" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeAreaCalculatorRedo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="objects.HomeAreaCalculatorRedo" />
+    <configuration name="InheritanceTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inheritance.InheritanceTester" />
       <module name="java_fundamentals" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -134,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InheritanceTester" />
         <item itemvalue="Application.TextProcessor" />
         <item itemvalue="Application.LotteryQuickPick" />
         <item itemvalue="Application.TestingRecords" />
         <item itemvalue="Application.HomeAreaCalculatorRedo" />
-        <item itemvalue="Application.HomeAreaCalculator" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +169,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699702024481</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="module_3: Arrays &amp; Text Processing">
+      <option name="closed" value="true" />
+      <created>1699792389407</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1699792389407</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -184,7 +194,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="module_1: loops and conditionals" />
     <MESSAGE value="module_2: Methods, Object &amp; Data Types" />
-    <option name="LAST_COMMIT_MESSAGE" value="module_2: Methods, Object &amp; Data Types" />
+    <MESSAGE value="module_3: Arrays &amp; Text Processing" />
+    <option name="LAST_COMMIT_MESSAGE" value="module_3: Arrays &amp; Text Processing" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
