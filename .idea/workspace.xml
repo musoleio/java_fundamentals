@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0a8cafe-a161-4515-8bc8-b8cb0a736b4f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/methods/GreetUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/methods/InstantCreditCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/objects/HomeAreaCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/objects/HomeAreaCalculatorRedo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/objects/Rectangle.java" afterDir="false" />
+    <list default="true" id="b0a8cafe-a161-4515-8bc8-b8cb0a736b4f" name="Changes" comment="module_2: Methods, Object &amp; Data Types">
+      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/LotteryQuickPick.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strings/TextProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +55,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "inlay.hints"
+    "settings.editor.selected.configurable": "shared-indexes"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -71,23 +69,7 @@
       <command value="mvn clean" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.HomeAreaCalculatorRedo">
-    <configuration name="Cashier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="loops.Cashier" />
-      <module name="java_fundamentals" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GreetUser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="methods.GreetUser" />
-      <module name="java_fundamentals" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TextProcessor">
     <configuration name="HomeAreaCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="objects.HomeAreaCalculator" />
       <module name="java_fundamentals" />
@@ -104,8 +86,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InstantCreditCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="methods.InstantCreditCheck" />
+    <configuration name="LotteryQuickPick" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.LotteryQuickPick" />
+      <module name="java_fundamentals" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestingRecords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="records.TestingRecords" />
+      <module name="java_fundamentals" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TextProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.TextProcessor" />
       <module name="java_fundamentals" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -136,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TextProcessor" />
+        <item itemvalue="Application.LotteryQuickPick" />
+        <item itemvalue="Application.TestingRecords" />
         <item itemvalue="Application.HomeAreaCalculatorRedo" />
         <item itemvalue="Application.HomeAreaCalculator" />
-        <item itemvalue="Application.InstantCreditCheck" />
-        <item itemvalue="Application.GreetUser" />
-        <item itemvalue="Application.Cashier" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +159,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699685120812</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="module_2: Methods, Object &amp; Data Types">
+      <option name="closed" value="true" />
+      <created>1699702024481</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1699702024481</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -177,7 +183,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="module_1: loops and conditionals" />
-    <option name="LAST_COMMIT_MESSAGE" value="module_1: loops and conditionals" />
+    <MESSAGE value="module_2: Methods, Object &amp; Data Types" />
+    <option name="LAST_COMMIT_MESSAGE" value="module_2: Methods, Object &amp; Data Types" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
