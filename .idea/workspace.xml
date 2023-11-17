@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0a8cafe-a161-4515-8bc8-b8cb0a736b4f" name="Changes" comment="module_4: Inheritance">
-      <change afterPath="$PROJECT_DIR$/src/main/java/inheritance/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/inheritance/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/inheritance/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/inheritance/Zoo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/Library.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/Product.java" afterDir="false" />
+    <list default="true" id="b0a8cafe-a161-4515-8bc8-b8cb0a736b4f" name="Changes" comment="module_5: Polymorphism">
+      <change afterPath="$PROJECT_DIR$/src/main/java/datastructures/CollectionsDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,11 +37,16 @@
     <setting file="jar://$USER_HOME$/.jdks/jdk-17.0.5+8/lib/src.zip!/java.base/java/util/List.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/.jdks/jdk-21.0.1+12/lib/src.zip!/java.base/java/lang/Record.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/.jdks/jdk-21.0.1+12/lib/src.zip!/java.base/java/util/AbstractMap.java" root0="SKIP_INSPECTION" />
-    <setting file="jar://$USER_HOME$/.jdks/jdk-21.0.1+12/lib/src.zip!/java.base/java/util/AbstractQueue.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.jdks/jdk-21.0.1+12/lib/src.zip!/java.base/java/util/AbstractQueue.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$USER_HOME$/.jdks/jdk-21.0.1+12/lib/src.zip!/java.base/java/util/ArrayList.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/.jdks/jdk-21.0.1+12/lib/src.zip!/java.base/java/util/Comparator.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/.jdks/jdk-21.0.1+12/lib/src.zip!/java.base/java/util/HashMap.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.jdks/jdk-21.0.1+12/lib/src.zip!/java.base/java/util/Iterator.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="jar://$USER_HOME$/.jdks/jdk-21.0.1+12/lib/src.zip!/java.base/java/util/Queue.java" root0="SKIP_INSPECTION" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2XyolTJG8B82y8fPtg8oPKBD0Xm" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -58,6 +57,7 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showModules" value="false" />
     <option name="sortByType" value="true" />
+    <option name="sortKey" value="BY_TYPE" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
@@ -70,7 +70,8 @@
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.24099927&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -84,7 +85,14 @@
       <command value="mvn clean" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Library">
+  <component name="RunManager" selected="Application.CollectionsDemo">
+    <configuration name="CollectionsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="datastructures.CollectionsDemo" />
+      <module name="java_fundamentals" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InheritanceTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="inheritance.InheritanceTester" />
       <module name="java_fundamentals" />
@@ -103,14 +111,6 @@
     </configuration>
     <configuration name="LotteryQuickPick" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrays.LotteryQuickPick" />
-      <module name="java_fundamentals" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TextProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.TextProcessor" />
       <module name="java_fundamentals" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -147,13 +147,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.CollectionsDemo" />
+      <item itemvalue="Application.InheritanceTester" />
+      <item itemvalue="Application.Library" />
+      <item itemvalue="Application.LotteryQuickPick" />
+      <item itemvalue="Application.Zoo" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CollectionsDemo" />
+        <item itemvalue="Application.LotteryQuickPick" />
         <item itemvalue="Application.Library" />
         <item itemvalue="Application.Zoo" />
         <item itemvalue="Application.InheritanceTester" />
-        <item itemvalue="Application.TextProcessor" />
-        <item itemvalue="Application.LotteryQuickPick" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +205,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699800185095</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="module_5: Polymorphism">
+      <option name="closed" value="true" />
+      <created>1699835525562</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1699835525563</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -217,7 +232,8 @@
     <MESSAGE value="module_2: Methods, Object &amp; Data Types" />
     <MESSAGE value="module_3: Arrays &amp; Text Processing" />
     <MESSAGE value="module_4: Inheritance" />
-    <option name="LAST_COMMIT_MESSAGE" value="module_4: Inheritance" />
+    <MESSAGE value="module_5: Polymorphism" />
+    <option name="LAST_COMMIT_MESSAGE" value="module_5: Polymorphism" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
